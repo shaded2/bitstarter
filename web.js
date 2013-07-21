@@ -1,14 +1,8 @@
 var express = require('express');
-
 var app = express.createServer(express.logger());
 
-app.get('/', function(request, response) {
-  response.send(function(){
-    fs.readFile('index.html', function (err, data) {
-     if (err) throw err;
-       console.log(data);
-    });
-  )};
+app.get('/', function(req, res) {
+  res.sendfile('index.html');
 });
 
 var port = process.env.PORT || 5000;
