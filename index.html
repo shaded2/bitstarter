@@ -226,10 +226,8 @@
         <div class="span5 actions">
           <div class="span8 offset2">
             <div class="statistics">
-              <div class="span4">
-                <!-- linediv-l and linediv-r give dividing lines that look
-                different in horizontal and vertical layouts, illustrating
-                media queries. -->
+              <h3>Help Fund This Project</h3>
+<!--               <div class="span4">
                 <div class="linediv-l">
                 <h3>2</h3> <p>backers</p>
                 </div>
@@ -243,18 +241,18 @@
                 <div class="linediv-r">
                 <h3>90</h3> <p>days left</p>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="span10 offset1">
             <!-- Bootstrap progress bar -->
             <!-- http://twitter.github.io/bootstrap/components.html#progress -->
             <div class="thermometer progress active">
-              <div class="bar bar-success" style="width: 1%;"></div>
-              <div class="bar bar-warning" style="width: 99%;"></div>
+              <div class="bar bar-success" style="width: 5%;"></div>
+              <div class="bar bar-warning" style="width: 95%;"></div>
             </div>
           </div>
-          <div class="span6 offset3 order">
+          <div class="statistics span6 offset3 order">
             <!-- Standard Bootstrap button. -->
             <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
             <!-- <button class="btn btn-success btn-large">Fund this project</button> -->
@@ -262,7 +260,15 @@
               data-code="f8c1f2c125b325f4b4275402385e0329"
               data-button-style="custom_large"
               data-button-text="Fund With Bitcoin"
-              href="https://coinbase.com/checkouts/f8c1f2c125b325f4b4275402385e0329">Fund With Bitcoin</a>
+              href="https://coinbase.com/checkouts/f8c1f2c125b325f4b4275402385e0329">Bitcoin</a>
+              <p>-- OR --</p>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="EGVYBZ4RLNAV4">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+              </form>
+
             <script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
 
           </div>
